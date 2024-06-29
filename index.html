@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="./css/swiper.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Test d'intégration | VOID</title>
+      </head>
+      <body>
+
+        <!-- HEADER -->
+        <header class="for_mobile"><!-- CLASS FOR_MOBILE POUR ACTIVER LES PROPRIETES CSS SUR LA VERSION MOBILE -->
+            <nav class="py-5 px-8 flex justify-between items-center">
+
+                <!-- MENU MOBILE -->
+                <div id="navigateur_mobile">
+                    <a class="text-violet-800 " id="mon_menu_close"><i class="fa-solid fa-xmark"></i></a>
+                    <div class="onglet_mobile">
+                        <ul>
+                            <li class="hover:text-violet-700 transition"><a href="">Notre entreprise</a></li>
+                            <li class="hover:text-violet-700 transition"><a href="">Notre science</a></li>
+                            <li class="hover:text-violet-700 transition"><a href="">Votre santé</a></li>
+                            <li class="hover:text-violet-700 transition"><a href="">Partenariat</a></li>
+                        </ul>
+                        <ul>
+                            <li class="hover:text-violet-700 transition"><a href="">Media</a></li>
+                            <li class="hover:text-violet-700 transition"><a href="">Investisseurs</a></li>
+                            <li class="hover:text-violet-700 transition"><a href="">Carrières</a></li>
+                            <li class="hover:text-violet-700 transition"><a href="">Partenariat Paris 2024</a></li>
+                            <div class="flex w-full items-center">
+                                <li class="text-violet-800 w-8 hover:text-violet-950 hover:cursor-pointer transition"><i class="fa-solid fa-globe"></i></li>
+                                <li class="font_size w-full text-lg font-semibold hover:text-violet-700 transition hover:cursor-pointer">Global</li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+                <!-- MENU MOBILE -->
+
+
+                <!-- NAVBAR POUR LE MOBILE -->
+                <div class="menu_pour_mobile">
+                    <a class="text-violet-800 text-xl" id="mon_menu"><i class="fa-solid fa-bars"></i></a>
+                    <a href="#" class="font-bold text-4xl mr-14 logo">Logo</a>
+                    <a class="text-violet-800 text-xl"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </div>
+                <!-- NAVBAR POUR LE MOBILE -->
+
+                <!-- MENU DESKTOP -->
+                <div class="onglet_gauche flex justify-between items-center">
+                    <a href="#" class="font-bold text-5xl mr-14 logo">Logo</a>
+                    <ul class="flex justify-between items-center font-bold">
+                        <li class="hover:text-violet-700 transition"><a href="">Notre entreprise</a></li>
+                        <li class="hover:text-violet-700 transition"><a href="">Notre science</a></li>
+                        <li class="hover:text-violet-700 transition"><a href="">Votre santé</a></li>
+                        <li class="hover:text-violet-700 transition"><a href="">Partenariat</a></li>
+                    </ul>
+                </div>
+                <div class="onglet_droit flex justify-between items-center font-bold">
+                    <ul class="flex justify-between items-center">
+                        <li class="hover:text-violet-700 transition"><a href="">Media</a></li>
+                        <li class="hover:text-violet-700 transition"><a href="">Investisseurs</a></li>
+                        <li class="hover:text-violet-700 transition"><a href="">Carrières</a></li>
+                        <li class="hover:text-violet-700 transition"><a href="">Partenariat Paris 2024</a></li>
+                        <li class="text-violet-800 hover:text-violet-950 hover:cursor-pointer transition"><i id="search_icon" class="fa-solid fa-magnifying-glass"></i></li>
+                        <li class="text-violet-800 hover:text-violet-950 hover:cursor-pointer transition"><i class="fa-solid fa-globe"></i></li>
+                        <li class="font_size hover:text-violet-700 transition hover:cursor-pointer">Global</li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- MENU DESKTOP -->
+        </header>
+        <!-- HEADER -->
+
+
+        <!-- MAIN -->
+        <main>
+            <!-- BANNIERE -->
+            <div id="top" class="banniere">
+                <div class="container">
+                    <div class="bloc_info bg-white rounded-xl p-12">
+                        <h1 class="mb-4 font-bold leading-normal">Journée des maladies rares 2024 : L'équité en action</h1>
+                        <p class="mb-14 leading-relaxed">À l'occasion de la Journée des maladies rares, il est plus important que
+                            jamais de continuer à rechercher un diagnostic, une innovation, un
+                            soutien et un accès équitables pour les personnes atteintes de maladies
+                            rares.</p>
+                        
+                        <button class="bg-violet-700 text-white py-4 px-8 button_custom rounded-md hover:bg-violet-950 transition">En savoir plus</button>
+                    </div>
+                </div>
+            </div>
+            <!-- BANNIERE -->
+
+            <div id="main" class="main_bg">
+                
+                <!-- BANNIERE MOBILE-->
+                <div class="bloc_info bg-white rounded-xl p-12">
+                    <h1 class="mb-4 font-bold leading-normal">Journée des maladies rares 2024 : L'équité en action</h1>
+                    <p class="mb-14 leading-relaxed">À l'occasion de la Journée des maladies rares, il est plus important que
+                        jamais de continuer à rechercher un diagnostic, une innovation, un
+                        soutien et un accès équitables pour les personnes atteintes de maladies
+                        rares.</p>
+                    
+                    <button class="bg-violet-700 text-white py-4 px-8 button_custom rounded-md">En savoir plus</button>
+                </div>
+                <!-- BANNIERE MOBILE-->
+
+                <div class="container">
+                    <div class="container_first">
+
+
+                <div class="dotcom-content-block py-16 flex justify-between">
+                    <div class="content_gauche w-2/5">
+                        <h2 class="mb-4 pr-28">Le drapeau de la lutte contre les méningites</h2>
+                        <p class="mb-4">Créé en collaboration avec trois para-athlètes, Ellie Challis,
+                            Théo Curin, Davide Morana et plusieurs membres de la
+                            Meningitis Research Foundation / Confederation of Meningitis
+                            Organisations, le drapeau de la lutte contre les méningites vise
+                            à sensibiliser le public à une maladie qui reste encore, à ce
+                            jour, un problème majeur de santé publique à l’échelle
+                            mondiale.
+                        </p>
+                        <a href="" class="flex justify-between items-center hover:text-violet-700 transition bouton_link">En savoir plus 
+                            <svg class="ml-4" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.41 0.5C9.85691 0.5 9.41003 0.946875 9.41003 1.5C9.41003 2.05313 9.85691 2.5 10.41 2.5H12.9944L6.70378 8.79375C6.31316 9.18437 6.31316 9.81875 6.70378 10.2094C7.09441 10.6 7.72878 10.6 8.11941 10.2094L14.41 3.91563V6.5C14.41 7.05312 14.8569 7.5 15.41 7.5C15.9632 7.5 16.41 7.05312 16.41 6.5V1.5C16.41 0.946875 15.9632 0.5 15.41 0.5H10.41ZM2.91003 1.5C1.52878 1.5 0.410034 2.61875 0.410034 4V14C0.410034 15.3813 1.52878 16.5 2.91003 16.5H12.91C14.2913 16.5 15.41 15.3813 15.41 14V10.5C15.41 9.94687 14.9632 9.5 14.41 9.5C13.8569 9.5 13.41 9.94687 13.41 10.5V14C13.41 14.275 13.185 14.5 12.91 14.5H2.91003C2.63503 14.5 2.41003 14.275 2.41003 14V4C2.41003 3.725 2.63503 3.5 2.91003 3.5H6.41003C6.96316 3.5 7.41003 3.05312 7.41003 2.5C7.41003 1.94687 6.96316 1.5 6.41003 1.5H2.91003Z" fill="#7A00E6"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="content_droit w-3/5 flex items-center justify-end">
+                        <img class="w-full" src="./assets/image-drapeau.webp" alt="flag" />
+                    </div>
+                </div>
+
+                <div class="dotcom-content-block py-16 flex justify-between">
+                    <div class="content_gauche w-3/5 flex items-center justify-end pr-18 relative">
+                        <button class="absolute h-20 w-20 rounded-full bg-white left-1/2 top-1/2 flex justify-center items-center -translate-y-1/2 -translate-x-1/2">
+                            <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.35156 0.773493C2.77344 0.418024 2.04688 0.406305 1.45703 0.738337C0.867188 1.07037 0.5 1.69537 0.5 2.37506V16.1251C0.5 16.8047 0.867188 17.4297 1.45703 17.7618C2.04688 18.0938 2.77344 18.0782 3.35156 17.7266L14.6016 10.8516C15.1602 10.5118 15.5 9.90631 15.5 9.25006C15.5 8.59381 15.1602 7.99224 14.6016 7.64849L3.35156 0.773493Z" fill="#7A00E6"/>
+                            </svg>
+                        </button>
+                        <img class="w-full" src="./assets/image-bloc-les-femmes.webp" alt="bloc les femmes" />
+                    </div>
+                    <div class="w-2/5 content_droit pl-20">
+                        <h2 class="mb-4 pr-28">Les femmes au sein de Entreprise - Cristina</h2>
+                        <p class="mb-4">Rencontrez Cristina Zamora, notre cheffe de projet pour les
+                            opérations de R&D en Amérique du Nord et l'une des
+                            nombreuses scientifiques inspirantes qui contribuent à
+                            renforcer la prochaine génération de femmes leaders dans le
+                            domaine de la santé et au-delà.
+                        </p>
+                        <a href="" class="flex justify-between items-center hover:text-violet-700 transition bouton_link">En savoir plus 
+                            <svg class="ml-4" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15.1162 8.95627C15.5068 8.56565 15.5068 7.93127 15.1162 7.54065L10.1162 2.54065C9.72554 2.15002 9.09116 2.15002 8.70054 2.54065C8.30991 2.93127 8.30991 3.56565 8.70054 3.95627L11.9974 7.25002H2.40991C1.85679 7.25002 1.40991 7.6969 1.40991 8.25002C1.40991 8.80315 1.85679 9.25002 2.40991 9.25002H11.9943L8.70366 12.5438C8.31304 12.9344 8.31304 13.5688 8.70366 13.9594C9.09429 14.35 9.72866 14.35 10.1193 13.9594L15.1193 8.9594L15.1162 8.95627Z" fill="#7A00E6"/>
+                            </svg>                                
+                        </a>
+                    </div>
+                    
+                </div>
+
+                <div class="dotcom-content-block py-16 flex justify-between">
+                    <div class="content_gauche w-2/5">
+                        <h2 class="mb-4 pr-28">200 jours avant les Jeux
+                            Paralympiques</h2>
+                        <p class="mb-4">Si vous n'avez pas encore entendu parler du
+                            #DrapeauMéningites, regardez la vidéo de Vaskange et
+                            découvrez la signification de chaque couleur.</p>
+                        <a href="" class="flex justify-between items-center hover:text-violet-700 transition bouton_link">En savoir plus 
+                            <svg class="ml-4" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15.1162 8.95627C15.5068 8.56565 15.5068 7.93127 15.1162 7.54065L10.1162 2.54065C9.72554 2.15002 9.09116 2.15002 8.70054 2.54065C8.30991 2.93127 8.30991 3.56565 8.70054 3.95627L11.9974 7.25002H2.40991C1.85679 7.25002 1.40991 7.6969 1.40991 8.25002C1.40991 8.80315 1.85679 9.25002 2.40991 9.25002H11.9943L8.70366 12.5438C8.31304 12.9344 8.31304 13.5688 8.70366 13.9594C9.09429 14.35 9.72866 14.35 10.1193 13.9594L15.1193 8.9594L15.1162 8.95627Z" fill="#7A00E6"/>
+                            </svg>                                
+                        </a>
+                    </div>
+                    <div class="content_droit w-3/5 flex items-center justify-end relative">
+                        <button class="absolute h-20 w-20 rounded-full bg-white left-1/2 top-1/2 flex justify-center items-center -translate-y-1/2 -translate-x-1/2">
+                            <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.35156 0.773493C2.77344 0.418024 2.04688 0.406305 1.45703 0.738337C0.867188 1.07037 0.5 1.69537 0.5 2.37506V16.1251C0.5 16.8047 0.867188 17.4297 1.45703 17.7618C2.04688 18.0938 2.77344 18.0782 3.35156 17.7266L14.6016 10.8516C15.1602 10.5118 15.5 9.90631 15.5 9.25006C15.5 8.59381 15.1602 7.99224 14.6016 7.64849L3.35156 0.773493Z" fill="#7A00E6"/>
+                            </svg>
+                        </button>
+                        <img class="w-full" src="./assets/image-jeux-paralympiques.webp" alt="jeux paralympique" />
+                    </div>
+                </div>
+
+                <div class="dotcom-card-list py-16 flex">
+                    <div class="MuiBox-root w-4/12 border_radius_custom border_custom relative shadow-xs">
+                        <div class="bloc_haut relative h-72">
+                            <button class="absolute h-20 w-20 rounded-full bg-white left-1/2 top-1/2 flex justify-center items-center -translate-y-1/2 -translate-x-1/2">
+                                <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3.35156 0.773493C2.77344 0.418024 2.04688 0.406305 1.45703 0.738337C0.867188 1.07037 0.5 1.69537 0.5 2.37506V16.1251C0.5 16.8047 0.867188 17.4297 1.45703 17.7618C2.04688 18.0938 2.77344 18.0782 3.35156 17.7266L14.6016 10.8516C15.1602 10.5118 15.5 9.90631 15.5 9.25006C15.5 8.59381 15.1602 7.99224 14.6016 7.64849L3.35156 0.773493Z" fill="#7A00E6"/>
+                                </svg>
+                            </button>
+                            <img class="w-full h-full object-cover" src="./assets/image-virus-et-bateria.webp" alt="virus vs bateria" />
+                        </div>
+                        <div class="bloc_bas px-4 py-8">
+                            <h3 class="mb-4">Virus VS Bacteria</h3>
+                            <p>Ils font partie de votre vie, mais les
+                                connaissez-vous vraiment ? Nos scientifiques
+                                vous expliquent les principales différences
+                                entre un virus et une bactérie.</p>
+                            <a href="" class="flex justify-between items-center hover:text-violet-700 transition bouton_link absolute bottom-4">Lire l'article
+                                <svg class="ml-4" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.1162 8.95627C15.5068 8.56565 15.5068 7.93127 15.1162 7.54065L10.1162 2.54065C9.72554 2.15002 9.09116 2.15002 8.70054 2.54065C8.30991 2.93127 8.30991 3.56565 8.70054 3.95627L11.9974 7.25002H2.40991C1.85679 7.25002 1.40991 7.6969 1.40991 8.25002C1.40991 8.80315 1.85679 9.25002 2.40991 9.25002H11.9943L8.70366 12.5438C8.31304 12.9344 8.31304 13.5688 8.70366 13.9594C9.09429 14.35 9.72866 14.35 10.1193 13.9594L15.1193 8.9594L15.1162 8.95627Z" fill="#7A00E6"/>
+                                </svg>                                
+                            </a>
+                        </div>
+                    </div>
+                    <div class="MuiBox-root w-4/12 border_radius_custom border_custom mx-3 relative shadow-xs">
+                        <div class="bloc_haut relative h-72">
+                            <img class="w-full h-full object-cover" src="./assets/image-parcours.webp" alt="Parcours" />
+                        </div>
+                        <div class="bloc_bas px-4 py-8">
+                            <h3 class="mb-4">Le parcours B Corp de Notre Santé Grand Public</h3>
+                            <p>En obtenant la certification B Corp pour
+                                Entreprise Santé Grand Public en Amérique du
+                                Nord, en Allemagne, en Italie et en Amérique
+                                latine, nous faisons partie d'une communauté
+                                mondiale qui transforme le monde des
+                                affaires en une force pour le bien.</p>
+                            <a href="" class="flex justify-between items-center hover:text-violet-700 transition bouton_link absolute bottom-4">En savoir plus 
+                                <svg class="ml-4" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.1162 8.95627C15.5068 8.56565 15.5068 7.93127 15.1162 7.54065L10.1162 2.54065C9.72554 2.15002 9.09116 2.15002 8.70054 2.54065C8.30991 2.93127 8.30991 3.56565 8.70054 3.95627L11.9974 7.25002H2.40991C1.85679 7.25002 1.40991 7.6969 1.40991 8.25002C1.40991 8.80315 1.85679 9.25002 2.40991 9.25002H11.9943L8.70366 12.5438C8.31304 12.9344 8.31304 13.5688 8.70366 13.9594C9.09429 14.35 9.72866 14.35 10.1193 13.9594L15.1193 8.9594L15.1162 8.95627Z" fill="#7A00E6"/>
+                                </svg>                                
+                            </a>
+                        </div>
+                    </div>
+                    <div class="MuiBox-root w-4/12 border_radius_custom border_custom relative shadow-xs">
+                        <div class="bloc_haut relative h-72">
+                            <button class="absolute h-20 w-20 rounded-full bg-white left-1/2 top-1/2 flex justify-center items-center -translate-y-1/2 -translate-x-1/2">
+                                <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3.35156 0.773493C2.77344 0.418024 2.04688 0.406305 1.45703 0.738337C0.867188 1.07037 0.5 1.69537 0.5 2.37506V16.1251C0.5 16.8047 0.867188 17.4297 1.45703 17.7618C2.04688 18.0938 2.77344 18.0782 3.35156 17.7266L14.6016 10.8516C15.1602 10.5118 15.5 9.90631 15.5 9.25006C15.5 8.59381 15.1602 7.99224 14.6016 7.64849L3.35156 0.773493Z" fill="#7A00E6"/>
+                                </svg>
+                            </button>
+                            <img class="w-full h-full object-cover" src="./assets/image-bb.webp" alt="virus vs bateria" />
+                        </div>
+                        <div class="bloc_bas px-4 py-8">
+                            <h3 class="mb-4">Maladie du sommeil : Ne
+                                laisser personne de côté</h3>
+                            <p>Maladie tropicale négligée, la maladie du
+                                sommeil est généralement mortelle en
+                                l'absence de traitement. Les patients infectés
+                                par la variante la plus aiguë de la maladie, le
+                                T.b rhodesiense, n'ont malheureusement
+                                bénéficié que de peu d'innovations en
+                                matière de traitement. Mais l'espoir pointe à
+                                l'horizon. Pour ces patients, nous voyons le
+                                potentiel du premier traitement oral pour
+                                cette variante de la maladie,
+                                soutenant ainsi l'objectif d'élimination de la
+                                maladie du sommeil chez l’humain d'ici 2030.</p>
+                            <a href="" class="flex justify-between items-center hover:text-violet-700 transition bouton_link absolute bottom-4">En savoir plus 
+                                <svg class="ml-4" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.1162 8.95627C15.5068 8.56565 15.5068 7.93127 15.1162 7.54065L10.1162 2.54065C9.72554 2.15002 9.09116 2.15002 8.70054 2.54065C8.30991 2.93127 8.30991 3.56565 8.70054 3.95627L11.9974 7.25002H2.40991C1.85679 7.25002 1.40991 7.6969 1.40991 8.25002C1.40991 8.80315 1.85679 9.25002 2.40991 9.25002H11.9943L8.70366 12.5438C8.31304 12.9344 8.31304 13.5688 8.70366 13.9594C9.09429 14.35 9.72866 14.35 10.1193 13.9594L15.1193 8.9594L15.1162 8.95627Z" fill="#7A00E6"/>
+                                </svg>                                
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dotcom-articles-type-block py-16 relative border_custom">
+                    <div class="articles-haut flex justify-between items-center mb-16">
+                        <h2>Entreprise Today</h2>
+                        <a href="" class="flex justify-between items-center hover:text-violet-700 transition font-bold text-xl w-fit">Lisez nos derniers articles
+                            <svg class="ml-4" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15.1162 8.95627C15.5068 8.56565 15.5068 7.93127 15.1162 7.54065L10.1162 2.54065C9.72554 2.15002 9.09116 2.15002 8.70054 2.54065C8.30991 2.93127 8.30991 3.56565 8.70054 3.95627L11.9974 7.25002H2.40991C1.85679 7.25002 1.40991 7.6969 1.40991 8.25002C1.40991 8.80315 1.85679 9.25002 2.40991 9.25002H11.9943L8.70366 12.5438C8.31304 12.9344 8.31304 13.5688 8.70366 13.9594C9.09429 14.35 9.72866 14.35 10.1193 13.9594L15.1193 8.9594L15.1162 8.95627Z" fill="#7A00E6"/>
+                            </svg>                                
+                        </a>
+                    </div>
+                    <div class="bloc-carousel flex">
+
+                        <div id="carousel" class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+
+                                <div class="swiper-slide border_radius_custom border_custom">    
+                                    <div class="item-0 relative shadow-xs">
+                                        <div class="carousel-image relative h-72">
+                                            <img class="w-full h-full object-cover" src="./assets/carousel-image-1.webp" alt="Carousel Item 1">
+                                        </div>
+                                        <div class="carousel-content px-4 py-8">
+                                            <p>Your Health</p>
+                                            <p>27 Février 2024</p>
+                                            <h3 class="h-24">
+                                                Journée des maladies rares 2024 : L'équité en action
+                                            </h3>
+                                            <a href="" class="flex hover:text-violet-700 transition bouton_link justify-between items-center">Lire l'article
+                                                <svg class="ml-4" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M15.1162 8.95627C15.5068 8.56565 15.5068 7.93127 15.1162 7.54065L10.1162 2.54065C9.72554 2.15002 9.09116 2.15002 8.70054 2.54065C8.30991 2.93127 8.30991 3.56565 8.70054 3.95627L11.9974 7.25002H2.40991C1.85679 7.25002 1.40991 7.6969 1.40991 8.25002C1.40991 8.80315 1.85679 9.25002 2.40991 9.25002H11.9943L8.70366 12.5438C8.31304 12.9344 8.31304 13.5688 8.70366 13.9594C9.09429 14.35 9.72866 14.35 10.1193 13.9594L15.1193 8.9594L15.1162 8.95627Z" fill="#7A00E6"/>
+                                                </svg>                                
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide border_radius_custom border_custom mx-3">
+                                    <div class="item-1 relative shadow-xs">
+                                        <div class="carousel-image relative h-72">
+                                            <img class="w-full h-full object-cover" src="./assets/carousel-image-2.webp" alt="Carousel Item 1">
+                                        </div>
+                                        <div class="carousel-content px-4 py-8">
+                                            <p>Your Health</p>
+                                            <p>7 Février 2024</p>
+                                            <h3 class="h-24">
+                                                #NoJargon: Plonger dans le monde de la science
+                                            </h3>
+                                            <a href="" class="flex hover:text-violet-700 transition bouton_link justify-between items-center">Lire l'article
+                                                <svg class="ml-4" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M15.1162 8.95627C15.5068 8.56565 15.5068 7.93127 15.1162 7.54065L10.1162 2.54065C9.72554 2.15002 9.09116 2.15002 8.70054 2.54065C8.30991 2.93127 8.30991 3.56565 8.70054 3.95627L11.9974 7.25002H2.40991C1.85679 7.25002 1.40991 7.6969 1.40991 8.25002C1.40991 8.80315 1.85679 9.25002 2.40991 9.25002H11.9943L8.70366 12.5438C8.31304 12.9344 8.31304 13.5688 8.70366 13.9594C9.09429 14.35 9.72866 14.35 10.1193 13.9594L15.1193 8.9594L15.1162 8.95627Z" fill="#7A00E6"/>
+                                                </svg>                                
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide border_radius_custom border_custom">
+                                    <div class="item-2 relative shadow-xs">
+                                        <div class="carousel-image relative h-72">
+                                            <img class="w-full h-full object-cover" src="./assets/carousel-image-3.webp" alt="Carousel Item 1">
+                                        </div>
+                                        <div class="carousel-content px-4 py-8">
+                                            <p>Your Health</p>
+                                            <p>5 Février 2024</p>
+                                            <h3 class="h-24">
+                                                Cancer et travail : Agir ensemble
+                                            </h3>
+                                            <a href="" class="flex hover:text-violet-700 transition bouton_link justify-between items-center">Lire l'article
+                                                <svg class="ml-4" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M15.1162 8.95627C15.5068 8.56565 15.5068 7.93127 15.1162 7.54065L10.1162 2.54065C9.72554 2.15002 9.09116 2.15002 8.70054 2.54065C8.30991 2.93127 8.30991 3.56565 8.70054 3.95627L11.9974 7.25002H2.40991C1.85679 7.25002 1.40991 7.6969 1.40991 8.25002C1.40991 8.80315 1.85679 9.25002 2.40991 9.25002H11.9943L8.70366 12.5438C8.31304 12.9344 8.31304 13.5688 8.70366 13.9594C9.09429 14.35 9.72866 14.35 10.1193 13.9594L15.1193 8.9594L15.1162 8.95627Z" fill="#7A00E6"/>
+                                                </svg>                                
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    
+                </div>
+                <div class="numero_carousel">
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="arrow_carousel">
+                    <div class="swiper-button-next"><i class="fa-solid fa-arrow-right-long"></i></div>
+                    <div class="swiper-button-prev"><i class="fa-solid fa-arrow-left-long"></i></div>
+                </div>
+                </div>
+
+                <div class="dotcom-press-releases-list py-16">
+                    <div class="releases-head mb-8">
+                        <h2>Nos dernières informations</h2>
+                    </div>
+                    <div class="releases-content relative flex justify-between items-start">
+                        <div class="releases-item w-5/6">
+                            <span class="font-bold">24 février 2024</span>
+                            <p class="font-bold">Communiqué : Résultats de phase II montrent que le rilzabrutinib permet de
+                                réduire rapidement la sévérité des démangeaisons causées par l’urticaire
+                                chronique spontanée et d’améliorer significativement l’activité de la maladie chez
+                                l’adulte</p>
+                            <a href="" class="bouton_link flex hover:text-violet-700 transition justify-between items-center">Lire le communiqué
+                                <svg class="ml-4" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.1162 8.95627C15.5068 8.56565 15.5068 7.93127 15.1162 7.54065L10.1162 2.54065C9.72554 2.15002 9.09116 2.15002 8.70054 2.54065C8.30991 2.93127 8.30991 3.56565 8.70054 3.95627L11.9974 7.25002H2.40991C1.85679 7.25002 1.40991 7.6969 1.40991 8.25002C1.40991 8.80315 1.85679 9.25002 2.40991 9.25002H11.9943L8.70366 12.5438C8.31304 12.9344 8.31304 13.5688 8.70366 13.9594C9.09429 14.35 9.72866 14.35 10.1193 13.9594L15.1193 8.9594L15.1162 8.95627Z" fill="#7A00E6"/>
+                                </svg>                                
+                            </a>
+                        </div>
+                        <a class="download-btn">
+                            <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="0.48999" y="0.5" width="43" height="43" rx="21.5" stroke="#7A00E6"/>
+                                <path d="M22.99 15C22.99 14.4469 22.5431 14 21.99 14C21.4369 14 20.99 14.4469 20.99 15V22.5844L18.6962 20.2906C18.3056 19.9 17.6712 19.9 17.2806 20.2906C16.89 20.6813 16.89 21.3156 17.2806 21.7063L21.2806 25.7063C21.6712 26.0969 22.3056 26.0969 22.6962 25.7063L26.6962 21.7063C27.0869 21.3156 27.0869 20.6813 26.6962 20.2906C26.3056 19.9 25.6712 19.9 25.2806 20.2906L22.99 22.5844V15ZM15.99 25C14.8869 25 13.99 25.8969 13.99 27V28C13.99 29.1031 14.8869 30 15.99 30H27.99C29.0931 30 29.99 29.1031 29.99 28V27C29.99 25.8969 29.0931 25 27.99 25H24.8181L23.4025 26.4156C22.6212 27.1969 21.3556 27.1969 20.5744 26.4156L19.1619 25H15.99ZM27.49 26.75C27.6889 26.75 27.8797 26.829 28.0203 26.9697C28.161 27.1103 28.24 27.3011 28.24 27.5C28.24 27.6989 28.161 27.8897 28.0203 28.0303C27.8797 28.171 27.6889 28.25 27.49 28.25C27.2911 28.25 27.1003 28.171 26.9597 28.0303C26.819 27.8897 26.74 27.6989 26.74 27.5C26.74 27.3011 26.819 27.1103 26.9597 26.9697C27.1003 26.829 27.2911 26.75 27.49 26.75Z" fill="#7A00E6"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="releases-content relative flex justify-between items-start">
+                        <div class="releases-item w-5/6">
+                            <span class="font-bold">24 février 2024</span>
+                            <p class="font-bold">Media Update: Dupixent® continues scientific leadership with late-breaking results
+                                showing reduced airway inflammation and mucus plugging in adults with
+                                uncontrolled moderate-to-severe asthma</p>
+                            <a href="" class="bouton_link flex hover:text-violet-700 transition justify-between items-center">Lire le communiqué
+                                <svg class="ml-4" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.1162 8.95627C15.5068 8.56565 15.5068 7.93127 15.1162 7.54065L10.1162 2.54065C9.72554 2.15002 9.09116 2.15002 8.70054 2.54065C8.30991 2.93127 8.30991 3.56565 8.70054 3.95627L11.9974 7.25002H2.40991C1.85679 7.25002 1.40991 7.6969 1.40991 8.25002C1.40991 8.80315 1.85679 9.25002 2.40991 9.25002H11.9943L8.70366 12.5438C8.31304 12.9344 8.31304 13.5688 8.70366 13.9594C9.09429 14.35 9.72866 14.35 10.1193 13.9594L15.1193 8.9594L15.1162 8.95627Z" fill="#7A00E6"/>
+                                </svg>                                
+                            </a>
+                        </div>
+                        <a class="download-btn">
+                            <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="0.48999" y="0.5" width="43" height="43" rx="21.5" stroke="#7A00E6"/>
+                                <path d="M22.99 15C22.99 14.4469 22.5431 14 21.99 14C21.4369 14 20.99 14.4469 20.99 15V22.5844L18.6962 20.2906C18.3056 19.9 17.6712 19.9 17.2806 20.2906C16.89 20.6813 16.89 21.3156 17.2806 21.7063L21.2806 25.7063C21.6712 26.0969 22.3056 26.0969 22.6962 25.7063L26.6962 21.7063C27.0869 21.3156 27.0869 20.6813 26.6962 20.2906C26.3056 19.9 25.6712 19.9 25.2806 20.2906L22.99 22.5844V15ZM15.99 25C14.8869 25 13.99 25.8969 13.99 27V28C13.99 29.1031 14.8869 30 15.99 30H27.99C29.0931 30 29.99 29.1031 29.99 28V27C29.99 25.8969 29.0931 25 27.99 25H24.8181L23.4025 26.4156C22.6212 27.1969 21.3556 27.1969 20.5744 26.4156L19.1619 25H15.99ZM27.49 26.75C27.6889 26.75 27.8797 26.829 28.0203 26.9697C28.161 27.1103 28.24 27.3011 28.24 27.5C28.24 27.6989 28.161 27.8897 28.0203 28.0303C27.8797 28.171 27.6889 28.25 27.49 28.25C27.2911 28.25 27.1003 28.171 26.9597 28.0303C26.819 27.8897 26.74 27.6989 26.74 27.5C26.74 27.3011 26.819 27.1103 26.9597 26.9697C27.1003 26.829 27.2911 26.75 27.49 26.75Z" fill="#7A00E6"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="releases-content relative flex justify-between items-start">
+                        <div class="releases-item w-5/6">
+                            <span class="font-bold">23 février 2024</span>
+                            <p class="font-bold">Communiqué de presse : Dépôt du Document d’Enregistrement Universel 2023,
+                                contenant le Rapport Financier Annuel, et du « Form 20-F » américain</p>
+                            <a href="" class="bouton_link flex hover:text-violet-700 transition justify-between items-center">Lire le communiqué
+                                <svg class="ml-4" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.1162 8.95627C15.5068 8.56565 15.5068 7.93127 15.1162 7.54065L10.1162 2.54065C9.72554 2.15002 9.09116 2.15002 8.70054 2.54065C8.30991 2.93127 8.30991 3.56565 8.70054 3.95627L11.9974 7.25002H2.40991C1.85679 7.25002 1.40991 7.6969 1.40991 8.25002C1.40991 8.80315 1.85679 9.25002 2.40991 9.25002H11.9943L8.70366 12.5438C8.31304 12.9344 8.31304 13.5688 8.70366 13.9594C9.09429 14.35 9.72866 14.35 10.1193 13.9594L15.1193 8.9594L15.1162 8.95627Z" fill="#7A00E6"/>
+                                </svg>                                
+                            </a>
+                        </div>
+                        <a class="download-btn">
+                            <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="0.48999" y="0.5" width="43" height="43" rx="21.5" stroke="#7A00E6"/>
+                                <path d="M22.99 15C22.99 14.4469 22.5431 14 21.99 14C21.4369 14 20.99 14.4469 20.99 15V22.5844L18.6962 20.2906C18.3056 19.9 17.6712 19.9 17.2806 20.2906C16.89 20.6813 16.89 21.3156 17.2806 21.7063L21.2806 25.7063C21.6712 26.0969 22.3056 26.0969 22.6962 25.7063L26.6962 21.7063C27.0869 21.3156 27.0869 20.6813 26.6962 20.2906C26.3056 19.9 25.6712 19.9 25.2806 20.2906L22.99 22.5844V15ZM15.99 25C14.8869 25 13.99 25.8969 13.99 27V28C13.99 29.1031 14.8869 30 15.99 30H27.99C29.0931 30 29.99 29.1031 29.99 28V27C29.99 25.8969 29.0931 25 27.99 25H24.8181L23.4025 26.4156C22.6212 27.1969 21.3556 27.1969 20.5744 26.4156L19.1619 25H15.99ZM27.49 26.75C27.6889 26.75 27.8797 26.829 28.0203 26.9697C28.161 27.1103 28.24 27.3011 28.24 27.5C28.24 27.6989 28.161 27.8897 28.0203 28.0303C27.8797 28.171 27.6889 28.25 27.49 28.25C27.2911 28.25 27.1003 28.171 26.9597 28.0303C26.819 27.8897 26.74 27.6989 26.74 27.5C26.74 27.3011 26.819 27.1103 26.9597 26.9697C27.1003 26.829 27.2911 26.75 27.49 26.75Z" fill="#7A00E6"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="releases-content relative flex justify-between items-start">
+                        <div class="releases-item w-5/6">
+                            <span class="font-bold">23 février 2024</span>
+                            <p class="font-bold">Communiqué de presse : La FDA accorde un examen prioritaire à la demande de
+                                licence de produits biologique relative à Dupixent® pour le traitement de la BPCO
+                                avec inflammation de type 2</p>
+                            <a href="" class="bouton_link flex hover:text-violet-700 transition justify-between items-center">Lire le communiqué
+                                <svg class="ml-4" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.1162 8.95627C15.5068 8.56565 15.5068 7.93127 15.1162 7.54065L10.1162 2.54065C9.72554 2.15002 9.09116 2.15002 8.70054 2.54065C8.30991 2.93127 8.30991 3.56565 8.70054 3.95627L11.9974 7.25002H2.40991C1.85679 7.25002 1.40991 7.6969 1.40991 8.25002C1.40991 8.80315 1.85679 9.25002 2.40991 9.25002H11.9943L8.70366 12.5438C8.31304 12.9344 8.31304 13.5688 8.70366 13.9594C9.09429 14.35 9.72866 14.35 10.1193 13.9594L15.1193 8.9594L15.1162 8.95627Z" fill="#7A00E6"/>
+                                </svg>                                
+                            </a>
+                        </div>
+                        <a class="download-btn">
+                            <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="0.48999" y="0.5" width="43" height="43" rx="21.5" stroke="#7A00E6"/>
+                                <path d="M22.99 15C22.99 14.4469 22.5431 14 21.99 14C21.4369 14 20.99 14.4469 20.99 15V22.5844L18.6962 20.2906C18.3056 19.9 17.6712 19.9 17.2806 20.2906C16.89 20.6813 16.89 21.3156 17.2806 21.7063L21.2806 25.7063C21.6712 26.0969 22.3056 26.0969 22.6962 25.7063L26.6962 21.7063C27.0869 21.3156 27.0869 20.6813 26.6962 20.2906C26.3056 19.9 25.6712 19.9 25.2806 20.2906L22.99 22.5844V15ZM15.99 25C14.8869 25 13.99 25.8969 13.99 27V28C13.99 29.1031 14.8869 30 15.99 30H27.99C29.0931 30 29.99 29.1031 29.99 28V27C29.99 25.8969 29.0931 25 27.99 25H24.8181L23.4025 26.4156C22.6212 27.1969 21.3556 27.1969 20.5744 26.4156L19.1619 25H15.99ZM27.49 26.75C27.6889 26.75 27.8797 26.829 28.0203 26.9697C28.161 27.1103 28.24 27.3011 28.24 27.5C28.24 27.6989 28.161 27.8897 28.0203 28.0303C27.8797 28.171 27.6889 28.25 27.49 28.25C27.2911 28.25 27.1003 28.171 26.9597 28.0303C26.819 27.8897 26.74 27.6989 26.74 27.5C26.74 27.3011 26.819 27.1103 26.9597 26.9697C27.1003 26.829 27.2911 26.75 27.49 26.75Z" fill="#7A00E6"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="release-footer py-8">
+                        <a href="" class="flex hover:text-violet-700 font-bold text-xl transition float-right justify-between items-center">Voir tous les communiqués de presse
+                            <svg class="ml-4" width="20" height="20" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15.1162 8.95627C15.5068 8.56565 15.5068 7.93127 15.1162 7.54065L10.1162 2.54065C9.72554 2.15002 9.09116 2.15002 8.70054 2.54065C8.30991 2.93127 8.30991 3.56565 8.70054 3.95627L11.9974 7.25002H2.40991C1.85679 7.25002 1.40991 7.6969 1.40991 8.25002C1.40991 8.80315 1.85679 9.25002 2.40991 9.25002H11.9943L8.70366 12.5438C8.31304 12.9344 8.31304 13.5688 8.70366 13.9594C9.09429 14.35 9.72866 14.35 10.1193 13.9594L15.1193 8.9594L15.1162 8.95627Z" fill="#7A00E6"/>
+                            </svg>                                
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="dotcom-card-list py-16">
+                    <div class="card-list-head mb-8">
+                        <h2>Découvrir plus</h2>
+                    </div>
+                    <div class="flex dotcom-card-list-contents">
+
+                        <div class="MuiBox-root w-4/12 border_radius_custom border_custom relative shadow-sm ">
+                            <div class="bloc_haut relative h-72">
+                                <img class="w-full h-full object-cover" src="./assets/diversite-image-1.webp" alt="virus vs bateria" />
+                            </div>
+                            <div class="bloc_bas px-4 py-8">
+                                <h3>Rapport diversité, équité et inclusion</h3>
+                                <p>Au cours de la première année complète de
+                                    notre nouvelle stratégie People & Culture, les
+                                    enjeux de Diversité, Équité et Inclusion (DE&I)
+                                    ont occupé le devant de la scène. Ce rapport
+                                    célèbre les progrès concrets que nous avons
+                                    réalisés pour refléter la diversité dans nos
+                                    équipes dirigeantes, libérer tout le potentiel
+                                    de nos collaborateurs et collaboratrices et
+                                    avoir un impact sur l’environnement de travail
+                                    mais aussi au-delà.</p>
+                                <a href="" class="flex hover:text-violet-700 transition justify-between items-center bouton_link absolute bottom-4">Lisez le document
+                                    <svg class="ml-4" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10.41 0.5C9.85691 0.5 9.41003 0.946875 9.41003 1.5C9.41003 2.05313 9.85691 2.5 10.41 2.5H12.9944L6.70378 8.79375C6.31316 9.18437 6.31316 9.81875 6.70378 10.2094C7.09441 10.6 7.72878 10.6 8.11941 10.2094L14.41 3.91563V6.5C14.41 7.05312 14.8569 7.5 15.41 7.5C15.9632 7.5 16.41 7.05312 16.41 6.5V1.5C16.41 0.946875 15.9632 0.5 15.41 0.5H10.41ZM2.91003 1.5C1.52878 1.5 0.410034 2.61875 0.410034 4V14C0.410034 15.3813 1.52878 16.5 2.91003 16.5H12.91C14.2913 16.5 15.41 15.3813 15.41 14V10.5C15.41 9.94687 14.9632 9.5 14.41 9.5C13.8569 9.5 13.41 9.94687 13.41 10.5V14C13.41 14.275 13.185 14.5 12.91 14.5H2.91003C2.63503 14.5 2.41003 14.275 2.41003 14V4C2.41003 3.725 2.63503 3.5 2.91003 3.5H6.41003C6.96316 3.5 7.41003 3.05312 7.41003 2.5C7.41003 1.94687 6.96316 1.5 6.41003 1.5H2.91003Z" fill="#7A00E6"/>
+                                    </svg>                               
+                                </a>
+                            </div>
+                        </div>
+                        <div class="MuiBox-root w-4/12 border_radius_custom border_custom mx-3 relative shadow-sm">
+                            <div class="bloc_haut relative h-72">
+                                <img class="w-full h-full object-cover" src="./assets/diversite-image-2.webp" alt="Parcours" />
+                            </div>
+                            <div class="bloc_bas px-4 py-8">
+                                <h3>Notre héritage</h3>
+                                <p>Notre societé d’aujourd’hui s’appuie sur un
+                                    héritage qui consiste à transformer
+                                    l’impossible en possible.</p>
+                                <a href="" class="flex hover:text-violet-700 transition justify-between items-center bouton_link absolute bottom-4">En savoir plus sur notre histoire
+                                    <svg class="ml-4" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15.1162 8.95627C15.5068 8.56565 15.5068 7.93127 15.1162 7.54065L10.1162 2.54065C9.72554 2.15002 9.09116 2.15002 8.70054 2.54065C8.30991 2.93127 8.30991 3.56565 8.70054 3.95627L11.9974 7.25002H2.40991C1.85679 7.25002 1.40991 7.6969 1.40991 8.25002C1.40991 8.80315 1.85679 9.25002 2.40991 9.25002H11.9943L8.70366 12.5438C8.31304 12.9344 8.31304 13.5688 8.70366 13.9594C9.09429 14.35 9.72866 14.35 10.1193 13.9594L15.1193 8.9594L15.1162 8.95627Z" fill="#7A00E6"/>
+                                    </svg>                                
+                                </a>
+                            </div>
+                        </div>
+                        <div class="MuiBox-root w-4/12 border_radius_custom border_custom relative shadow-sm">
+                            <div class="bloc_haut relative h-72">
+                               
+                                <img class="w-full h-full object-cover" src="./assets/diversite-image-3.webp" alt="virus vs bateria" />
+                            </div>
+                            <div class="bloc_bas px-4 py-8">
+                                <h3>Notre rapport intégré 2022</h3>
+                                <p>Découvrez comment nous rendons possible
+                                    l'impossible pour améliorer la vie des gens
+                                    dans le monde.</p>
+                                <a href="" class="flex hover:text-violet-700 transition justify-between items-center bouton_link absolute bottom-4">Lire le rapport
+                                    <svg class="ml-4" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10.41 0.5C9.85691 0.5 9.41003 0.946875 9.41003 1.5C9.41003 2.05313 9.85691 2.5 10.41 2.5H12.9944L6.70378 8.79375C6.31316 9.18437 6.31316 9.81875 6.70378 10.2094C7.09441 10.6 7.72878 10.6 8.11941 10.2094L14.41 3.91563V6.5C14.41 7.05312 14.8569 7.5 15.41 7.5C15.9632 7.5 16.41 7.05312 16.41 6.5V1.5C16.41 0.946875 15.9632 0.5 15.41 0.5H10.41ZM2.91003 1.5C1.52878 1.5 0.410034 2.61875 0.410034 4V14C0.410034 15.3813 1.52878 16.5 2.91003 16.5H12.91C14.2913 16.5 15.41 15.3813 15.41 14V10.5C15.41 9.94687 14.9632 9.5 14.41 9.5C13.8569 9.5 13.41 9.94687 13.41 10.5V14C13.41 14.275 13.185 14.5 12.91 14.5H2.91003C2.63503 14.5 2.41003 14.275 2.41003 14V4C2.41003 3.725 2.63503 3.5 2.91003 3.5H6.41003C6.96316 3.5 7.41003 3.05312 7.41003 2.5C7.41003 1.94687 6.96316 1.5 6.41003 1.5H2.91003Z" fill="#7A00E6"/>
+                                        </svg>                                        
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                </div>
+
+                <div class="dotcom-focused-block py-16 text-center mb-16">
+                    <h2 class="mx-auto h2-percent">Construisez votre carrière avec Entreprise</h2>
+                    <p class="p-percent mx-auto">Vous serez surpris de voir tout ce que vous pouvez accomplir chez Entreprise. Découvrez votre avenir ici.</p>
+                    <div class="text-center mt-4">
+                        <button class="bg-violet-700 text-white mx-auto py-4 px-8 button_custom rounded-md flex items-center hover:bg-violet-950 transition">
+                            <svg class="mr-2" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.41 0.5C9.85691 0.5 9.41003 0.946875 9.41003 1.5C9.41003 2.05313 9.85691 2.5 10.41 2.5H12.9944L6.70378 8.79375C6.31316 9.18437 6.31316 9.81875 6.70378 10.2094C7.09441 10.6 7.72878 10.6 8.11941 10.2094L14.41 3.91563V6.5C14.41 7.05312 14.8569 7.5 15.41 7.5C15.9632 7.5 16.41 7.05312 16.41 6.5V1.5C16.41 0.946875 15.9632 0.5 15.41 0.5H10.41ZM2.91003 1.5C1.52878 1.5 0.410034 2.61875 0.410034 4V14C0.410034 15.3813 1.52878 16.5 2.91003 16.5H12.91C14.2913 16.5 15.41 15.3813 15.41 14V10.5C15.41 9.94687 14.9632 9.5 14.41 9.5C13.8569 9.5 13.41 9.94687 13.41 10.5V14C13.41 14.275 13.185 14.5 12.91 14.5H2.91003C2.63503 14.5 2.41003 14.275 2.41003 14V4C2.41003 3.725 2.63503 3.5 2.91003 3.5H6.41003C6.96316 3.5 7.41003 3.05312 7.41003 2.5C7.41003 1.94687 6.96316 1.5 6.41003 1.5H2.91003Z" fill="#ffffff"/>
+                            </svg>
+                            Accéder au portail Carrières</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </main>
+        <footer class="text-white">
+            <div class="bloc-noir bg-black p-6 flex justify-between items-center">
+                <div class="logo_footer w-2/5">
+                    <svg width="80" height="23" viewBox="0 0 80 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M28.4057 7.92133C26.5895 7.21037 24.6556 6.84731 22.7051 6.8511C18.3338 6.8511 15.2656 9.77377 15.2656 14.3787C15.2656 19.036 17.9277 21.9063 22.6461 21.9063C24.6249 21.9198 26.5854 21.5266 28.4057 20.751C28.6384 20.6662 28.836 20.5061 28.9671 20.2962C29.0982 20.0862 29.1553 19.8385 29.1294 19.5924V9.07992C29.1294 8.41226 28.8707 8.0948 28.4057 7.92133ZM25.3671 17.3799C25.3671 17.8152 25.1346 18.0181 24.6435 18.1621C24.0047 18.3438 23.3429 18.432 22.6788 18.424C20.8255 18.424 19.077 17.3243 19.077 14.3722C19.077 11.42 20.8124 10.3236 22.6788 10.3236C23.3428 10.3145 24.0045 10.4016 24.6435 10.5822C25.1346 10.7262 25.3671 10.9291 25.3671 11.3644V17.3799Z" fill="white"/>
+                        <path d="M4.03447 11.6829C4.03447 10.7992 4.93163 10.2363 6.46732 10.2363C7.94407 10.2363 9.36187 10.7272 10.8386 11.5454C10.9694 11.6226 11.119 11.6623 11.2709 11.66C11.4062 11.6582 11.5386 11.6198 11.6539 11.549C11.7692 11.4781 11.8631 11.3773 11.9257 11.2574L12.8229 9.34603C12.8961 9.19256 12.9352 9.02509 12.9375 8.8551C12.9378 8.73613 12.9056 8.61933 12.8445 8.51726C12.7833 8.4152 12.6955 8.33171 12.5904 8.27579C10.76 7.25395 8.69484 6.72607 6.5983 6.7441C2.72143 6.7441 0.23291 8.82565 0.23291 11.9513C0.23291 18.0846 9.55181 15.7085 9.55181 19.9632C9.55488 20.3272 9.49619 20.6891 9.37825 21.0335C9.36067 21.0897 9.35076 21.148 9.34879 21.2069C9.34601 21.2635 9.35561 21.32 9.37693 21.3725C9.39826 21.425 9.4308 21.4723 9.47226 21.5109C9.51373 21.5495 9.56315 21.5787 9.61704 21.5963C9.67093 21.6138 9.72798 21.6195 9.78427 21.6127H12.3874C12.8229 21.6127 12.9964 21.4687 13.1405 21.0335C13.3015 20.5031 13.38 19.9512 13.373 19.397C13.3567 12.812 4.03447 14.3928 4.03447 11.6829Z" fill="white"/>
+                        <path d="M39.2007 6.85107C37.2161 6.86472 35.2483 7.21669 33.3821 7.89184C33.1495 7.97662 32.9519 8.13672 32.8208 8.34665C32.6897 8.55659 32.6325 8.8043 32.6585 9.05043V21.0259C32.6537 21.1032 32.6654 21.1806 32.6928 21.2531C32.7203 21.3255 32.7628 21.3913 32.8176 21.4461C32.8724 21.5009 32.9382 21.5434 33.0107 21.5708C33.0832 21.5983 33.1607 21.61 33.238 21.6052H35.8575C35.9349 21.61 36.0124 21.5983 36.0849 21.5708C36.1574 21.5434 36.2232 21.5009 36.278 21.4461C36.3328 21.3913 36.3753 21.3255 36.4028 21.2531C36.4302 21.1806 36.4419 21.1032 36.4371 21.0259V11.3055C36.4371 10.8734 36.6663 10.6705 37.1313 10.5527C37.832 10.3831 38.552 10.3061 39.2727 10.3236C40.8346 10.3236 42.0789 11.0469 42.0789 12.7815V21.0259C42.0741 21.1032 42.0858 21.1806 42.1132 21.2531C42.1407 21.3255 42.1832 21.3913 42.238 21.4461C42.2928 21.5009 42.3586 21.5434 42.4311 21.5708C42.5036 21.5983 42.5811 21.61 42.6584 21.6052H45.278C45.355 21.6095 45.4322 21.5974 45.5043 21.5698C45.5764 21.5421 45.6418 21.4995 45.6962 21.4448C45.7507 21.3901 45.7929 21.3245 45.8201 21.2523C45.8474 21.1801 45.859 21.1029 45.8543 21.0259V12.2906C45.8281 8.75915 43.6572 6.85107 39.2007 6.85107Z" fill="white"/>
+                        <path d="M55.7858 6.85107C51.444 6.85107 48.6084 10.0028 48.6084 14.3787C48.6084 18.7545 51.444 21.9063 55.9888 21.9063C60.3307 21.9063 63.1663 18.7545 63.1663 14.3787C63.1663 10.0028 60.3307 6.85107 55.7858 6.85107ZM55.9888 18.4239C53.8474 18.4239 52.4296 17.033 52.4296 14.3721C52.4296 11.7113 53.8474 10.3236 55.7858 10.3236C57.9273 10.3236 59.3451 11.7113 59.3451 14.3721C59.3451 17.033 57.9273 18.4239 55.9888 18.4239Z" fill="white"/>
+                        <path d="M79.2862 7.13818H76.6831C76.363 7.13818 76.1035 7.39754 76.1035 7.71748V21.025C76.1035 21.3449 76.363 21.6043 76.6831 21.6043H79.2862C79.6063 21.6043 79.8658 21.3449 79.8658 21.025V7.71748C79.8658 7.39754 79.6063 7.13818 79.2862 7.13818Z" fill="white"/>
+                        <path d="M73.7294 1.55629C73.1329 1.41563 72.5216 1.3475 71.9088 1.35338C68.307 1.35338 65.9756 3.26473 65.9756 7.43109V21.0266C65.9709 21.1036 65.9825 21.1808 66.0098 21.253C66.037 21.3252 66.0792 21.3908 66.1337 21.4455C66.1881 21.5003 66.2535 21.5429 66.3256 21.5705C66.3977 21.5981 66.4748 21.6102 66.5519 21.6059H69.1289C69.2062 21.6107 69.2837 21.599 69.3562 21.5715C69.4287 21.5441 69.4945 21.5016 69.5493 21.4468C69.6041 21.3921 69.6467 21.3263 69.6741 21.2538C69.7015 21.1814 69.7132 21.1039 69.7084 21.0266V10.3243H73.3823C73.4602 10.3313 73.5387 10.3212 73.6122 10.2946C73.6857 10.2679 73.7524 10.2255 73.8077 10.1702C73.863 10.1149 73.9054 10.0482 73.9321 9.97473C73.9587 9.90125 73.9689 9.82284 73.9619 9.74501V7.74855C73.9718 7.66877 73.9639 7.58779 73.9387 7.51145C73.9135 7.43511 73.8717 7.36531 73.8162 7.30708C73.7608 7.24885 73.6931 7.20364 73.6181 7.17472C73.543 7.14579 73.4625 7.13386 73.3823 7.1398H69.7084V6.81251C69.7084 5.2219 70.4026 4.41022 72.0005 4.41022C72.5801 4.41022 73.2022 4.5575 73.4183 4.5575C73.7654 4.5575 73.9095 4.35459 73.9684 4.00766L74.2598 2.50215C74.2888 2.37845 74.3074 2.25255 74.3155 2.12577C74.309 1.81484 74.1354 1.64466 73.7294 1.55629Z" fill="white"/>
+                        <path d="M1.96463 17.9058C0.779304 17.9058 0 18.6553 0 19.8989C0 21.1426 0.782588 21.8954 2.05632 21.8954C3.24165 21.8954 4.02096 21.1164 4.02096 19.8989C4.02096 18.6814 3.23837 17.9058 1.96463 17.9058Z" fill="white"/>
+                        <path d="M77.9436 1.35889C76.755 1.35889 75.979 2.11165 75.979 3.35534C75.979 4.59903 76.7616 5.35178 78.0353 5.35178C79.2207 5.35178 80 4.56958 80 3.35534C80 2.14111 79.2141 1.35889 77.9436 1.35889Z" fill="white"/>
+                        </svg>                        
+                </div>
+                <div class="social flex justify-between items-center">
+                    <p class="font-bold text-xl">Suivez nous</p>
+                    <ul class="flex">
+                        <li><a href="" class="hover:bg-white hover:text-black transition"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li><a href="" class="hover:bg-white hover:text-black transition"><i class="fa-brands fa-x-twitter"></i></a></li>
+                        <li><a href="" class="hover:bg-white hover:text-black transition"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="" class="hover:bg-white hover:text-black transition"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="" class="hover:bg-white hover:text-black transition"><i class="fa-brands fa-tiktok"></i></a></li>
+                        <li><a href="" class="hover:bg-white hover:text-black transition"><i class="fa-brands fa-youtube"></i></a></li>
+                        <li><a href="" class="hover:bg-white hover:text-black transition"><i class="fa-solid fa-rss"></i></a></li>
+                    </ul>
+                </div>
+                <div class="cursor-pointer" id="scroll_top">
+                    Haut de page <i class="fa-solid fa-arrow-up"></i>
+                </div>
+            </div>
+            <div class="bloc-blanc bg-white text-black p-6">
+                <div class="nav">
+                    <ul class="flex justify-start flex-wrap">
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Mentions légales</a></li>
+                        <li><a href="">Vie Privée et Données Personnelles</a></li>
+                        <li><a href="">Politique des cookies</a></li>
+                        <li><a href="">Entreprise Today</a></li>
+                        <li><a href="">Nos publications</a></li>
+                        <li><a href="">Plan du site</a></li>
+                        <li><a href="">Annuaire</a></li>
+                        <li><a href="">Accessibilité</a></li>
+                        <li><a href="">Conformité partielle</a></li>
+                        <li><a href="">Code de Conduite</a></li>
+                    </ul>
+                </div>
+                <span>© Entreprise 2004-2024 - Tous droits réservés</span>
+            </div>
+        </footer>
+
+        <script src="./js/script.js"></script>
+        <script src="./js/swiper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js" integrity="sha512-u3fPA7V8qQmhBPNT5quvaXVa1mnnLSXUep5PS1qo5NRzHwG19aHmNJnj1Q8hpA/nBWZtZD4r4AX6YOt5ynLN2g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script>
+            let swiper = new Swiper(".mySwiper", {
+                slidesPerView: 3,
+                pagination: {
+                    el: ".swiper-pagination",
+                    type: "fraction",
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+                breakpoints: {
+                    0: {
+                        slidesPerView: 1,
+                    },
+                    991: {
+                        slidesPerView: 1,
+                    },
+                    1025: {
+                        slidesPerView: 3,
+                    },
+                },
+                renderBullet: function (index, className) {
+                    return '<span class="' + className + '">' + (index + 1) + "</span>";
+                },
+            });
+        </script>
+
+      </body>
+</html>
+

@@ -1,0 +1,535 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*, body {
+    font-family: "Work Sans", sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+/* ********  CODE POUR LE MENU ET LES DIFFERENTS ONLETS  ******* */
+.onglet_gauche ul li a, 
+.onglet_droit ul li a,
+.font_size{
+    font-size: 1.1vw;
+}
+.onglet_gauche ul li, 
+.onglet_droit ul li {
+    margin-right: 1vw;
+}
+.onglet_gauche .logo{
+    position: relative;
+    top: -4px;
+}
+.onglet_droit svg{
+    font-size: 1.5vw;
+}
+.scrolling-active nav {
+    position: fixed;
+    width: 100%;
+    background: white;
+    top: 0;
+    z-index: 9;
+    transition: .4s ease;
+}
+
+.menu_pour_mobile{
+    display: none;
+}
+
+#navigateur_mobile{
+    display: none;
+    position: fixed;
+    width: 350px;
+    height: 100vh;
+    z-index: 9;
+    background: white;
+    left: -500px;
+    top: 0;
+    box-shadow: 60px 0 100px -20px #00000078;
+    transition: .4s ease;
+}
+
+#navigateur_mobile .menu_open {
+    left: 0;
+}
+
+/* ********  CODE POUR LE MENU ET LES DIFFERENTS ONLETS  ******* */
+
+/* ********  CODE POUR LA BANNIERE  ******* */
+.banniere {
+    background-image: url(../assets/image-banniere.webp);
+    height: calc(100vh - 87px);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.bloc_info {
+    width: 860px;
+}
+.bloc_info h1 {
+    font-size: 65px;
+}
+.bloc_info p{
+    font-size: 20px;
+}
+/* ********  CODE POUR LA BANNIERE  ******* */
+
+/* ********  CODE POUR LA CLASSE CONTAINER  ******* */
+.container {
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* ********  CODE POUR LA CLASSE CONTAINER  ******* */
+
+/* ********  CODE POUR LES BOUTONS  ******* */
+.button_custom{
+    font-size: 21px;
+}
+/* ********  CODE POUR LES BOUTONS  ******* */
+
+/* ********  CODE POUR LE BLOC MAIN  ******* */
+#main{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: #eaeaea;
+    }
+#main .container_first{
+    background-color: rgba(255, 255, 255, 0.329);
+    padding-bottom: 40px;
+}
+#main p{
+    font-size: 17px;
+    line-height: 30px;
+}
+
+#main h2 {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 45px;
+}
+
+#main h3 {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 40px;
+}
+#main .bloc_info{
+    display: none;
+}
+/* ********  CODE POUR LE BLOC MAIN  ******* */
+
+/********* CODE POUR LA CLASSE CONTENT_DROIT *******************/
+.content_droit{
+    padding-left: 50px;
+}
+/********* CODE POUR LA CLASSE CONTENT_DROIT *******************/
+
+
+.border_custom{
+    border: 1px solid rgb(209, 209, 209);
+}
+.border_radius_custom{
+    border-radius: 12px;
+}
+.bouton_link{
+    font-size: 15px;
+    width: fit-content;
+    font-weight: bold;
+}
+
+/********* CODE TOUS LES BLOCS MUIBOX *******************/
+.MuiBox-root p {
+    margin-bottom: 20px;
+}
+.MuiBox-root img, .bloc-carousel img {
+    border-radius: 10px 10px 0 0;
+}
+/********* CODE TOUS LES BLOCS MUIBOX *******************/
+
+/********* CODE POUR LE BLOC CAROUSEL *******************/
+.bloc-carousel .swiper-slide{
+    width: 32.8% !important;
+}
+.carousel-content p{
+    font-size: 14px !important;
+    margin-bottom: 0 !important;
+    line-height: 1.5 !important;
+}
+/********* CODE POUR LE BLOC CAROUSEL *******************/
+
+
+/********* CODE POUR LE BLOC RELEASES *******************/
+.releases-content {
+    border-top: 1px solid rgb(209, 209, 209);
+    border-bottom: 1px solid rgb(209, 209, 209);
+    padding: 3% 1.5%;
+}
+.releases-content span{
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+.releases-content p{
+    font-size: 23px !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 40px !important;
+}
+
+/********* CODE POUR LE BLOC RELEASES *******************/
+
+
+/********* CODE POUR LE BLOC FOOTER *******************/
+.logo_footer svg{
+    height: 60px;
+    width: 100px;
+}
+
+footer ul li a{
+    height: 50px;
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
+footer ul li a svg{
+    font-size: 20px;
+}
+.bloc-blanc nav ul li a {
+    width: 100%;
+}
+/********* CODE POUR H2 ET LE P AVANT LE FOOTER *******************/
+.h2-percent{
+   width: 500px;
+}
+.p-percent{
+    width: 940px;
+}
+.nav ul {
+    width: 100%;
+    display: flex;
+}
+
+footer .nav ul li a {
+    width: 100%;
+}
+/********* CODE POUR LE BLOC FOOTER *******************/
+
+
+
+#mon_menu_close {
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+.onglet_mobile {
+    padding: 50px 20px;
+}
+
+.onglet_mobile ul {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 20px;
+}
+
+.onglet_mobile ul li {
+    margin: 10px 0;
+}
+
+.onglet_mobile ul li a {font-weight: 500;}
+
+
+
+
+@media (max-width: 1300px) {
+    .logo_footer{
+        width: 30%;
+    }
+    .social{
+        width: 70%;
+    }
+    .carousel-content h3 {
+        height: initial;
+    }
+    #main h3 {
+        font-size: 20px !important;
+        line-height: 35px;
+    }
+    #main h2 {
+        font-size: 27px;
+        padding-right: 10px;
+    }
+    .dotcom-content-block a, 
+    .dotcom-card-list a, 
+    .dotcom-articles-type-block a,
+    .dotcom-press-releases-list a,
+    .dotcom-focused-block a{
+        font-size: 15px;
+    }
+    .MuiBox-root h3{
+        height: 40px;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    nav{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background: white;
+        z-index: 9;
+    }
+    .menu_pour_mobile{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    #navigateur_mobile{
+        display:block;
+    }
+
+#navigateur_mobile.menu_open {
+    left: 0;
+}
+    .for_mobile .onglet_droit, .for_mobile .onglet_gauche{
+        display: none;
+    }
+    #main {
+        position: relative;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    .banniere{
+        height: 50vh;
+        background: url(../assets/image-banniere-mobile.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right center;
+        padding-top: initial !important;
+    }
+    .bloc_info{
+        display: none;
+    }
+    #main .bloc_info {
+        display: block;
+        width: 100%;
+    }
+
+    
+.dotcom-content-block {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.content_gauche {
+    width: 100% !important;
+    margin-bottom: 20px;
+}
+.content_droit {
+    padding-left: initial !important;
+    width: 100% !important;
+    margin-bottom: 25px;
+}
+.dotcom-content-block:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+}
+
+.dotcom-card-list .MuiBox-root {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgb(209, 209, 209);
+    margin: initial;
+    margin-bottom: 20px;
+}
+.MuiBox-root .bloc_haut {
+    height: initial;
+}
+.dotcom-card-list {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#main h3 {
+    font-size: 20px !important;
+    line-height: 35px;
+    display: block;
+    position: relative;
+    height: initial;
+}
+.bloc-carousel .swiper-slide{
+    width: 100% !important;
+    margin: initial;
+}
+.dotcom-articles-type-block {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 80px !important;
+    margin-bottom: 30px;
+}
+.articles-haut {
+    flex-direction: column;
+    align-items: flex-start !important;
+}
+.arrow_carousel {
+    position: absolute;
+    bottom: 0;
+    width: 140px;
+    right: 0;
+}
+.swiper-button-next:after, .swiper-button-prev:after {
+    display: none;
+}
+.swiper-button-next, .swiper-button-prev {
+    border: 1px solid #a200ff;
+    width: 40px !important;
+    height: 40px !important;
+    color: #a200ff !important;
+    padding: 10px;
+    border-radius: 50px;
+}
+.swiper-button-prev {
+    left: 25px !important;
+}
+.numero_carousel {
+    position: absolute;
+    bottom: -20px;
+    height: 40px;
+    width: 40px;
+}
+.dotcom-press-releases-list {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.releases-content {
+    align-items: flex-end !important;
+}
+.release-footer a {
+    float: initial;
+    margin: auto;
+}
+.dotcom-card-list-contents {
+    flex-direction: column;
+}
+.bloc-noir {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.logo_footer {
+    width: 100%;
+}
+
+.logo_footer svg {
+    margin: auto;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.social ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.social p {
+    margin-bottom: 20px;
+}
+.dotcom-focused-block h2, .dotcom-focused-block p {
+    width: 100%;
+}
+.dotcom-focused-block {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+footer ul li a {
+    height: 40px;
+    width: 40px;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    align-items: center;
+}
+#main h2 {
+    font-size: 25px;
+    padding-right: 10px;
+}
+.download-btn {
+    position: absolute;
+    right: 0;
+    bottom: 10px !important;
+}
+.releases-item {
+    width: 100% !important;
+}
+.bloc_info h1 {
+    font-size: 40px;
+}
+.dotcom-content-block, .dotcom-card-list, .dotcom-articles-type-block, .dotcom-press-releases-list, .dotcom-focused-block {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+}
+
+@media(max-width: 767px){
+    .bloc_info h1 {
+        font-size: 35px;
+    }
+    #main .bloc_info {
+        padding: 15px;
+        margin-top: -80px;
+    }
+    .releases-item p {
+        font-size: 20px !important;
+        margin-bottom: 20px;
+    }
+    .releases-content {
+        border-top: 1px solid rgb(209, 209, 209);
+        border-bottom: 1px solid rgb(209, 209, 209);
+        padding: 2em 1.5%;
+    }
+    .download-btn {
+        bottom: 25px !important;
+    }
+    .release-footer a {
+        font-size: 18px;
+        text-align: center;
+    }
+    .button_custom {
+        font-size: 15px;
+    }
+}
+
+
